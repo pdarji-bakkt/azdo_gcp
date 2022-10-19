@@ -6,7 +6,7 @@ module "gke-cluster" {
 module "azure-devops" {
   source                     = "../../../../modules/azure-devops" ## path is correct on my original code, changed folder structure while uploading to public
   namespaces                 = var.namespaces
-  AZDO_PERSONAL_ACCESS_TOKEN = var.AZDO_PERSONAL_ACCESS_TOKENs
+  AZDO_PERSONAL_ACCESS_TOKEN = var.AZDO_PERSONAL_ACCESS_TOKEN
 }
 
 /********************************************
